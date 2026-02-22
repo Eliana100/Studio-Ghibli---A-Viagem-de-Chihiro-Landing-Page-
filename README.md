@@ -11,7 +11,7 @@
 
 Este projeto é uma Landing Page temática do filme "A Viagem de Chihiro" (Studio Ghibli), desenvolvida como um desafio da **CodeLab** para consolidar conhecimentos em posicionamento de elementos e interatividade.
 
-*Projeto no Figma:* https://www.figma.com/design/GigjlmVOEl5yjPArNJFfhQ/Desafios---CodeLab--Copy-?node-id=5854-2)
+*Projeto no Figma:* https://www.figma.com/design/GigjlmVOEl5yjPArNJFfhQ/Desafios---CodeLab--Copy-?node-id=5854-2
 
 <br>
 
