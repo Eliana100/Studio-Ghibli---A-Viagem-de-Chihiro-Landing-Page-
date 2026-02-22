@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --brand-color: #F1A5B1;
+    --dark-10: #0B0A0A;
+    --dark-20: #FFFFFF;
+
+    --fm-title: 'Andada Pro';
+    --fm-corpo-texto: 'Archivo';
+    --fm-p: 'Roboto';
+}
+
+body{
+    background-image: url(/img/wallpaper.png);
+    background-size: cover;
+    color: var(--dark-20);
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+}
+
+.nav-container{
+    margin: 40px;
+    display: flex;
+    place-content: center;
+    gap: 650px;
+}
+
+.nav-container img{
+    justify-content: center;
+}
+
+.nav-icon{
+    align-self: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.info-inicio{
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 502px;
+    height: 415px;
+}
+
+.img-info{
+    width:100%;
+}
+
+#img-width{
+    width: 100%;
+}
+
+a, span{
+    font-family: var(--fm-p);
+}
+p{
+    font-family: var(--fm-corpo-texto);
+    margin-top: 32px;
+    line-height: 20px;
+}
+
+span{
+    font-size: 20px;
+}
+
+h1{
+    font-family: var(--fm-title);
+    font-size: 64px;
+}
+
+.btn{
+    display: flex;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+#play-logo{
+    width: 24px;
+    height: 24px;
+}
+
+#play{
+    text-align: center;
+    display: inline-flex;
+    gap: 3px;
+    border-radius: 4px;
+    padding: 14px 32px;
+    color: var(--dark-10);
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--brand-color);
+}
+
+#play:hover{
+    background-color: #e46074;
+}
+
+#trailer{
+    text-align: center;
+    display: inline-flex;
+    border: 2px solid var(--dark-20);
+    color: var(--dark-20);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 14px 32px;
+}
+
+#trailer:hover{
+    background-color: #7a7a7a65;
+}
+
+
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.modal-content {
+  position: relative;
+  margin: 5% auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+
+.close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

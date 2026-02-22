@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/image.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/Css/style.css" />
+    <title>Studio Ghibli</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="nav-container">
+          <div>
+            <img src="/img/logo.svg" alt="logo Studio Ghibli" />
+          </div>
+          <div class="nav-icon">
+            <img src="/img/link-google.svg" alt="logo google" />
+            <img src="/img/link-facebook.svg" alt="logo facebook" />
+            <img src="/img/link-twitter.svg" alt="logo twitter" />
+            <img src="/img/link-instagram.svg" alt="logo instagram" />
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="info-inicio">
+          <div class="info">
+            <span>HAYAO MIYAZAKI</span>
+            <h1>A VIAGEM DE CHIHIRO</h1>
+            <p>
+              Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles
+              que a desobedecem são transformados em animais.
+            </p>
+          </div>
+
+          <div class="btn">
+            <a href="https://animesflix.online/filme/a-viagem-de-chihiro-filme-2001" id="play" target="_blank">
+              <img id="play-logo" src="/img/Play.svg" alt="logo de play" />
+              assistir agora</a
+            >
+            <a href="#" id="trailer" onclick="abrirModal()"
+              >assista o trailer</a
+            >
+            <div id="modal-trailer" class="modal">
+              <div class="modal-content">
+                <span class="close" onclick="fecharModal()">&times;</span>
+                <div class="video-container">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/SgZI655GgHk?si=zAnAGOzqMHy3hZyx"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="
+                      accelerometer;
+                      autoplay;
+                      clipboard-write;
+                      encrypted-media;
+                      gyroscope;
+                      picture-in-picture;
+                      web-share;
+                    "
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-info">
+          <img id="img-width" src="/img/image.svg" alt="imagem fantasma" />
+        </div>
+      </section>
+    </main>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
